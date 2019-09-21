@@ -8,4 +8,6 @@ RUN npm install
 
 COPY . .
 
-CMD ["npm","start"]
+RUN npm install -g nodemon
+
+CMD ["nodemon","start"]
