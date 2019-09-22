@@ -1,0 +1,6 @@
+version: '3'
+services: 
+  proyecto-spring:
+    build: .
+    volumes:
+      - ./:/usr/src/mymaven
